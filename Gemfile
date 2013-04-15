@@ -7,6 +7,6 @@ group :test do
   gem 'capybara'
 end
 
-gem 'spree_core', github: 'spree/spree'
+gem 'spree', github: 'spree/spree'
 
 gemspec
