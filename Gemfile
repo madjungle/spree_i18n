@@ -8,5 +8,6 @@ group :test do
 end
 
 gem 'spree', github: 'spree/spree'
+gem 'globalize3'
 
 gemspec

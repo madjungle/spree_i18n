@@ -4,7 +4,7 @@ describe "Product Translations tab" do
   let(:product) { create(:product) }
 
   stub_authorization!
-  
+
   before do
     visit spree.admin_product_path(product)
   end
